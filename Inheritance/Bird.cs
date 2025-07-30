@@ -2,8 +2,8 @@ namespace Inheritance;
 
 public class Bird:Animal
 {
-    public string canFly;
-    public string featherColor;
-    public string beakType;
-    public string nestType;
+    public string CanFly { get; set; }
+    public string FeatherColor { get; set; }
+    public string BeakType { get; set; }
+    public string NestType { get; set; }
 }

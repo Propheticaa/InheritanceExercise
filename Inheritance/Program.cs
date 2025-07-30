@@ -30,23 +30,23 @@ namespace Inheritance
              */
 
             Bird pigeon = new Bird();
-            pigeon.species = "Pigeon";
-            pigeon.location = "Urban areas";
-            pigeon.pest = "Is a pest";
-            pigeon.endangered = "Not endangered";
-            pigeon.canFly = "Can fly";
-            pigeon.featherColor = "Gray";
-            pigeon.beakType = "Short and stout";
-            pigeon.nestType = "Nests in buildings and trees";
+            pigeon.Species = "Pigeon";
+            pigeon.Location = "Urban areas";
+            pigeon.Pest = "Is a pest";
+            pigeon.Endangered = "Not endangered";
+            pigeon.CanFly = "Can fly";
+            pigeon.FeatherColor = "Gray";
+            pigeon.BeakType = "Short and stout";
+            pigeon.NestType = "Nests in buildings and trees";
 
-            Console.WriteLine($"Species: {pigeon.species}");
-            Console.WriteLine($"Location: {pigeon.location}");
-            Console.WriteLine($"Pest: {pigeon.pest}");
-            Console.WriteLine($"Endangered: {pigeon.endangered}");
-            Console.WriteLine($"Can Fly: {pigeon.canFly}");
-            Console.WriteLine($"Feather Color: {pigeon.featherColor}");
-            Console.WriteLine($"Beak Type: {pigeon.beakType}");
-            Console.WriteLine($"Nest Type: {pigeon.nestType}");
+            Console.WriteLine($"Species: {pigeon.Species}");
+            Console.WriteLine($"Location: {pigeon.Location}");
+            Console.WriteLine($"Pest: {pigeon.Pest}");
+            Console.WriteLine($"Endangered: {pigeon.Endangered}");
+            Console.WriteLine($"Can Fly: {pigeon.CanFly}");
+            Console.WriteLine($"Feather Color: {pigeon.FeatherColor}");
+            Console.WriteLine($"Beak Type: {pigeon.BeakType}");
+            Console.WriteLine($"Nest Type: {pigeon.NestType}");
             Console.WriteLine();
 
             /*Create an object of your Reptile class
@@ -55,23 +55,23 @@ namespace Inheritance
              * Creatively display the class member values 
              */
             Reptile snake = new Reptile();
-            snake.species = "Snake";
-            snake.location = "Forests and deserts";
-            snake.pest = "Is a pest";
-            snake.endangered = "Some species endangered";
-            snake.isVenomous = "Some are venomous";
-            snake.scaleType = "Hard Scales";
-            snake.isTailRegenerating = "Does not regenerate tail";
-            snake.hasLegs = "No legs";
+            snake.Species = "Snake";
+            snake.Location = "Forests and deserts";
+            snake.Pest = "Is a pest";
+            snake.Endangered = "Some species endangered";
+            snake.IsVenomous = "Some are venomous";
+            snake.ScaleType = "Hard Scales";
+            snake.IsTailRegenerating = "Does not regenerate tail";
+            snake.HasLegs = "No legs";
 
-            Console.WriteLine($"Species: {snake.species}");
-            Console.WriteLine($"Location: {snake.location}");
-            Console.WriteLine($"Pest: {snake.pest}");
-            Console.WriteLine($"Endangered: {snake.endangered}");
-            Console.WriteLine($"Is Venomous: {snake.isVenomous}");
-            Console.WriteLine($"Scale Type: {snake.scaleType}");
-            Console.WriteLine($"Is Tail Regenerating: {snake.isTailRegenerating}");
-            Console.WriteLine($"Has legs: {snake.hasLegs}");
+            Console.WriteLine($"Species: {snake.Species}");
+            Console.WriteLine($"Location: {snake.Location}");
+            Console.WriteLine($"Pest: {snake.Pest}");
+            Console.WriteLine($"Endangered: {snake.Endangered}");
+            Console.WriteLine($"Is Venomous: {snake.IsVenomous}");
+            Console.WriteLine($"Scale Type: {snake.ScaleType}");
+            Console.WriteLine($"Is Tail Regenerating: {snake.IsTailRegenerating}");
+            Console.WriteLine($"Has legs: {snake.HasLegs}");
 
         }
     }

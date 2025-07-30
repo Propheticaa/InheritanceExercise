@@ -2,8 +2,8 @@ namespace Inheritance;
 
 public class Animal
 {
-    public string species;
-    public string location;
-    public string pest;
-    public string endangered;
+    public string Species { get; set; }
+    public string Location { get; set; }
+    public string Pest { get; set; }
+    public string Endangered { get; set; }
 }
